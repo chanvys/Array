@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Array Dimensional</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        border: 1px solid #4a4a4a;
+        padding: 20px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .input-section {
+        margin: 20px 0;
+    }
+    input[type="text"] {
+        width: 250px;
+        height: 35px;
+        padding: 5px;
+        font-size: 16px;
+        border: 1px solid #999;
+        border-radius: 5px;
+    }
+    .buttons {
+        margin: 20px 0;
+    }
+    .buttons button {
+        margin: 0 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #f5f5f0;
+        border: 1px solid #999;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .buttons button:hover {
+        background-color: #e0e0e0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #999;
+        padding: 8px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Array Dimensional</h1>
+    <div class="input-section">
+        <label for="inputValue" style="font-size: 30px;">Input Value:</label>
+        <input type="text" id="inputValue" name="inputValue">
+    </div>
+    <div class="buttons">
+        <button id="addBtn">Add</button>
+        <button id="viewBtn">View</button>
+        <button id="searchBtn">Search</button>
+        <button id="deleteBtn">Delete</button>
+    </div>
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
+
+<script src="Array.js">
+</script>
